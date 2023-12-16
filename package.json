@@ -1,0 +1,19 @@
+{
+  "name": "noc",
+  "module": "src/index.ts",
+  "type": "module",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "bun --hot src/index.ts"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "json-server": "^0.17.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "cron": "^3.1.6"
+  }
+}
